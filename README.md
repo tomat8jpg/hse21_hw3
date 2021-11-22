@@ -34,3 +34,7 @@
 ![image](https://user-images.githubusercontent.com/60805733/142847475-36ec4b91-452e-46e4-be96-8367fd02fc11.png)  
 # Графики со значениями "Normalized counts" в контрольных и перепрограммированных образцах
 (поиск генов производился сортировкой по L2FC - ноутбук в папке src)
+![image](https://user-images.githubusercontent.com/60805733/142852355-844dd348-9d4b-478d-a4e6-d59b0f5ff60e.png)  
+![image](https://user-images.githubusercontent.com/60805733/142852378-0b212892-f2a6-4cdb-8829-fb6402daffdf.png)  
+![image](https://user-images.githubusercontent.com/60805733/142852409-53414541-37f0-4061-8bca-5b3e8db116a7.png)  
+![image](https://user-images.githubusercontent.com/60805733/142852447-fbd310ab-2c05-49f3-b459-84345a32023a.png)  
