@@ -18,7 +18,7 @@
 # С помощью данный, приведенных выше, можно посчитать количество чтений, соответствующих хотя бы одному гену 
 ![image](https://user-images.githubusercontent.com/60805733/142816386-b3d787a5-7bdc-4744-8ec0-2bfacd4a5886.png)  
 # Наглядная статистика по каждому из 6 образцов  
-
+![image](https://user-images.githubusercontent.com/60805733/142847352-2a283267-b805-4aa6-b4f9-dc9e2aeb53ec.png)  
 # Объединяем файлы с прочтениями в один - all_counts (столбцы - образцы, при чем c1, c2, c3 - контрольные образцы; r1, r2, r3 - перепрограммированные образцы)  
 ![image](https://user-images.githubusercontent.com/60805733/142817878-94b29c87-916e-4cea-bcea-0e599d5fef7c.png)
 
@@ -26,10 +26,10 @@
 Ссылка на коллаб - https://colab.research.google.com/drive/1DMjup_hBYMt1yWuY3nqbQEV2HOWfkc7v?usp=sharing
 # MA-plot, показывающий Log2FC для генов  
 Можно заметить, что большее количество дифференциально экспрессированных генов увеличило свою экспрессию 
-
+![image](https://user-images.githubusercontent.com/60805733/142847394-e503364c-facf-469a-ba19-36e4e3a05c4c.png)  
 # Heatmap, показывающий созависимость экспрессии генов из контрольных и репрограммированных образцов  
 Можно заметить, что экспрессия генов одинакова в одной группе образцов и отличается между группами  
-
+![image](https://user-images.githubusercontent.com/60805733/142847436-5a8fa829-44ba-4de2-bfc1-6f280e29d661.png)  
 # Heatmap для первых 20 наиболее дифференциально экспрессированных генов
-
+![image](https://user-images.githubusercontent.com/60805733/142847475-36ec4b91-452e-46e4-be96-8367fd02fc11.png)  
 # Графики со значениями "Normalized counts" в контрольных и перепрограммированных образцах
