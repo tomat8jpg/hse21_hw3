@@ -11,3 +11,4 @@
 ![image](https://user-images.githubusercontent.com/60805733/142776458-f388e537-633f-4e17-bf85-0fc809f3e379.png)  
 Количество уникально картированных чтений по каждому образцу:  
 ![image](https://user-images.githubusercontent.com/60805733/142800576-6f3a3f14-b979-429f-b770-8d1cc56c5281.png)  
+# Подсчитываем количество чтений, попавших на каждый ген с помощью HTSeq  
