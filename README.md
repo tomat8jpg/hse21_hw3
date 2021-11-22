@@ -1,4 +1,5 @@
-# hse21_hw3
+# hse21_hw3  
+# Ссылка на коллаб - https://colab.research.google.com/drive/19DpE69hyh7oSkcewCBrt-r74ojsGsx43?usp=sharing
 # Проверка качества чтений из fastQC: сравнительная статистика из multiQC
 ![image](https://user-images.githubusercontent.com/60805733/142776373-05b11b52-924e-477f-8e98-42420cdf1f3f.png)  
 ![image](https://user-images.githubusercontent.com/60805733/142776385-9d5c4216-6283-468f-9622-ac1eb94a5b9c.png)  
