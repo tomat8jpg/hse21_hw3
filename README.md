@@ -1,5 +1,6 @@
 # hse21_hw3  
-# Ссылка на коллаб - https://colab.research.google.com/drive/19DpE69hyh7oSkcewCBrt-r74ojsGsx43?usp=sharing
+# Часть 1  
+Ссылка на коллаб - https://colab.research.google.com/drive/19DpE69hyh7oSkcewCBrt-r74ojsGsx43?usp=sharing
 # Проверка качества чтений из fastQC: сравнительная статистика из multiQC
 ![image](https://user-images.githubusercontent.com/60805733/142776373-05b11b52-924e-477f-8e98-42420cdf1f3f.png)  
 ![image](https://user-images.githubusercontent.com/60805733/142776385-9d5c4216-6283-468f-9622-ac1eb94a5b9c.png)  
@@ -8,7 +9,7 @@
 ![image](https://user-images.githubusercontent.com/60805733/142776411-a7a90224-7d31-4d85-8d1f-66c6afb5d872.png)  
 ![image](https://user-images.githubusercontent.com/60805733/142776415-668765df-9d25-47c0-8ac1-cab95c8999c5.png)  
 ![image](https://user-images.githubusercontent.com/60805733/142776424-64035515-e04f-4b67-a028-cbc9a12bd12f.png)  
-## Суммарная статистика
+# Суммарная статистика
 ![image](https://user-images.githubusercontent.com/60805733/142776458-f388e537-633f-4e17-bf85-0fc809f3e379.png)  
 # Количество уникально картированных чтений по каждому образцу:  
 ![image](https://user-images.githubusercontent.com/60805733/142800576-6f3a3f14-b979-429f-b770-8d1cc56c5281.png)  
@@ -16,5 +17,19 @@
 ![image](https://user-images.githubusercontent.com/60805733/142810569-f342aac0-46d7-47c0-9978-24edc16a1799.png)
 # С помощью данный, приведенных выше, можно посчитать количество чтений, соответствующих хотя бы одному гену 
 ![image](https://user-images.githubusercontent.com/60805733/142816386-b3d787a5-7bdc-4744-8ec0-2bfacd4a5886.png)  
+# Наглядная статистика по каждому из 6 образцов  
+
 # Объединяем файлы с прочтениями в один - all_counts (столбцы - образцы, при чем c1, c2, c3 - контрольные образцы; r1, r2, r3 - перепрограммированные образцы)  
 ![image](https://user-images.githubusercontent.com/60805733/142817878-94b29c87-916e-4cea-bcea-0e599d5fef7c.png)
+
+# Часть 2. Анализ с помощью DESeq2  
+Ссылка на коллаб - https://colab.research.google.com/drive/1DMjup_hBYMt1yWuY3nqbQEV2HOWfkc7v?usp=sharing
+# MA-plot, показывающий Log2FC для генов  
+Можно заметить, что большее количество дифференциально экспрессированных генов увеличило свою экспрессию 
+
+# Heatmap, показывающий созависимость экспрессии генов из контрольных и репрограммированных образцов  
+Можно заметить, что экспрессия генов одинакова в одной группе образцов и отличается между группами  
+
+# Heatmap для первых 20 наиболее дифференциально экспрессированных генов
+
+# Графики со значениями "Normalized counts" в контрольных и перепрограммированных образцах
