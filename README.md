@@ -1,5 +1,5 @@
 # hse21_hw3
-# Проверка качества чтений из fastQC: сравнительная статистика ридов из multiQC
+# Проверка качества чтений из fastQC: сравнительная статистика из multiQC
 ![image](https://user-images.githubusercontent.com/60805733/142776373-05b11b52-924e-477f-8e98-42420cdf1f3f.png)  
 ![image](https://user-images.githubusercontent.com/60805733/142776385-9d5c4216-6283-468f-9622-ac1eb94a5b9c.png)  
 ![image](https://user-images.githubusercontent.com/60805733/142776392-b85c6c14-fe13-4f48-be6e-edde19a727b2.png)  
