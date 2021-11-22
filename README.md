@@ -1,4 +1,5 @@
-# hse21_hw3
+# hse21_hw3  
+# Ссылка на коллаб - https://colab.research.google.com/drive/19DpE69hyh7oSkcewCBrt-r74ojsGsx43?usp=sharing
 # Проверка качества чтений из fastQC: сравнительная статистика из multiQC
 ![image](https://user-images.githubusercontent.com/60805733/142776373-05b11b52-924e-477f-8e98-42420cdf1f3f.png)  
 ![image](https://user-images.githubusercontent.com/60805733/142776385-9d5c4216-6283-468f-9622-ac1eb94a5b9c.png)  
@@ -9,6 +10,11 @@
 ![image](https://user-images.githubusercontent.com/60805733/142776424-64035515-e04f-4b67-a028-cbc9a12bd12f.png)  
 ## Суммарная статистика
 ![image](https://user-images.githubusercontent.com/60805733/142776458-f388e537-633f-4e17-bf85-0fc809f3e379.png)  
-Количество уникально картированных чтений по каждому образцу:  
+# Количество уникально картированных чтений по каждому образцу:  
 ![image](https://user-images.githubusercontent.com/60805733/142800576-6f3a3f14-b979-429f-b770-8d1cc56c5281.png)  
-# Подсчитываем количество чтений, попавших на каждый ген с помощью HTSeq  
+# Смотрим статистику HTSeq и узнаем, количество чтений соответствует участкам генома, где не аннотировано ни одного экзона и количество чтений, которые могут принадлежать разным генам  
+![image](https://user-images.githubusercontent.com/60805733/142810569-f342aac0-46d7-47c0-9978-24edc16a1799.png)
+# С помощью данный, приведенных выше, можно посчитать количество чтений, соответствующих хотя бы одному гену 
+![image](https://user-images.githubusercontent.com/60805733/142816386-b3d787a5-7bdc-4744-8ec0-2bfacd4a5886.png)  
+# Объединяем файлы с прочтениями в один - all_counts (столбцы - образцы, при чем c1, c2, c3 - контрольные образцы; r1, r2, r3 - перепрограммированные образцы)  
+![image](https://user-images.githubusercontent.com/60805733/142817878-94b29c87-916e-4cea-bcea-0e599d5fef7c.png)
